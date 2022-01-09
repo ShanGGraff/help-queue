@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "./Header";
-import TicketList from "./TicketControl";
+import MerchList from "./MerchControl";
 
 function App(){
   return ( 
     <React.Fragment>
       <Header />
-      <TicketList />
+      <MerchList />
     </React.Fragment>
   );
 }
